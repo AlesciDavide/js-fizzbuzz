@@ -34,6 +34,8 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
             -stampo il risultato //prima in console e successivamente nel DOM
    -aggiungo esle if per controllare se l'indice è divisibile per 3 e stampo fizz
            -stampo il risultato //prima in console e successivamente nel DOM
-   -aggiungo esle per controllare se l'indice è divisibile per 5 e stampo buzz
+   -aggiungo esle if per controllare se l'indice è divisibile per 5 e stampo buzz
+           -stampo il risultato //prima in console e successivamente nel DOM
+   aggiungo else per i numeri non multipli di 3 e 5
            -stampo il risultato //prima in console e successivamente nel DOM
  
