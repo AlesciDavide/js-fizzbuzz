@@ -7,6 +7,7 @@
 .My_container{
     background-color: aquamarine;
     width: 85%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +18,9 @@
 .My_item_number{
     width: 200px;
     height: 200px;
-    background-color: rgb(61, 74, 150);
+    background-color: rgb(199, 200, 202);
     border: 2px solid black;
+    align-self: center;
 }
 
 .My_item_fizz{
