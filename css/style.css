@@ -9,10 +9,9 @@
     width: 85%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     color: white;
+    justify-content: center;
 }
 
 .My_item_number{
@@ -20,26 +19,45 @@
     height: 200px;
     background-color: rgb(199, 200, 202);
     border: 2px solid black;
-    align-self: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
 
 .My_item_fizz{
     width: 200px;
     height: 200px;
-    background-color: rgb(122, 32, 196);
+    background-color: rgb(161, 161, 32);
     border: 2px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
 
 .My_item_Buzz{
     width: 200px;
     height: 200px;
-    background-color: rgb(214, 22, 22);
+    background-color: green;
     border: 2px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
 
 .My_item_FizzBuzz{
     width: 200px;
     height: 200px;
-    background-color: rgb(214, 22, 22);
+    background-color: red;
     border: 2px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
