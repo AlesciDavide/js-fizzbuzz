@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: fizzbuzz;
+    src: url(..//font/curlzmt.ttf);
+}
+
+body{
+    font-family: fizzbuzz;
+    background-color: whitesmoke;
+}
+
 .My_container{
-    background-color: aquamarine;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -18,46 +27,70 @@
     width: 200px;
     height: 200px;
     background-color: rgb(199, 200, 202);
-    border: 2px solid black;
+    border: 4px double black;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    font-size: 5rem;
+}
+
+.My_item_number:hover{
+    background-color: black;
+    border: 4px double rgb(199, 200, 202);
 }
 
 .My_item_fizz{
     width: 200px;
     height: 200px;
     background-color: rgb(161, 161, 32);
-    border: 2px solid black;
+    border: 4px double black;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    font-size: 5rem;
+}
+
+.My_item_fizz:hover{
+    background-color: black;
+    border: 4px double rgb(161, 161, 32);
 }
 
 .My_item_Buzz{
     width: 200px;
     height: 200px;
     background-color: green;
-    border: 2px solid black;
+    border: 4px double black;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    font-size: 5rem;
+}
+
+.My_item_Buzz:hover{
+    background-color: black;
+    border: 4px double green;
 }
 
 .My_item_FizzBuzz{
     width: 200px;
     height: 200px;
     background-color: red;
-    border: 2px solid black;
+    border: 4px double black;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    font-size: 3rem;
+}
+
+.My_item_FizzBuzz:hover{
+    background-color: black;
+    border: 4px double red;
 }
